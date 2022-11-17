@@ -10,9 +10,10 @@ public class HashSetCreator {
         {
             if(x%2==0)
             {
+                hs.add(x);
                 while(x%2==0)
                 {
-                    hs.add(x);
+                    hs.add(x/2);
                     x/=2;
                 }
             }
